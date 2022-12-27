@@ -68,7 +68,7 @@ content:
         caption: June 2022 - Present
         description: | # this will include new lines to allow paragraphs
             Python developer. Mostly working with Web3 technologies as well as taking care of infrastructure. 
-     content:
+    content:
       - layout: left
         title: Multifarm
         link: https://www.multifarm.fi/

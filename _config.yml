@@ -51,6 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   Software developer with experience in working with small and medium-sized teams. 
 
   Programming languages I am most skilled with: <mark>Python</mark>, <mark>Typescript</mark>, <mark>Golang</mark> (learning)
+  
   Databases: <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>PostgreSQL</mark>
 
   <mark>Web3</mark> is my passion and I keep learning about it every day!
@@ -68,15 +69,18 @@ content:
         caption: June 2022 - Present
         description: | # this will include new lines to allow paragraphs
             Python developer. Mostly working with Web3 technologies as well as taking care of infrastructure. 
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Multifarm
-        link: https://www.multifarm.fi/
+        title: Oxylabs
+        link: https://oxylabs.io/
         # link_text: boringcompany.com
-        sub_title: Lead Developer
-        caption: June 2022 - Present
+        sub_title: Python Developer
+        caption: June 2020 - June 2022
         description: | # this will include new lines to allow paragraphs
-            Python developer. Mostly working with Web3 technologies as well as taking care of infrastructure. 
+            Working in a larger team and using Python to solve various issues.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)

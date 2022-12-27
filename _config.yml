@@ -47,10 +47,10 @@ linkedin_username: tadas-gedgaudas-01a0a7132
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   Software developer with experience in working with small and medium-sized teams. 
 
-  Programming languages I am most skilled with: <mark>Python</mark>, <mark>Typescript</mark>, <mark>Golang</mark> (learning)
+  Programming languages I am most skilled with: <mark>Python</mark>, <mark>Typescript</mark>, <mark>Golang</mark> (learning), <mark>PhP</mark> (no longer coding)
   
   Databases: <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>PostgreSQL</mark>
 
@@ -58,32 +58,49 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Multifarm
         link: https://www.multifarm.fi/
-        # link_text: boringcompany.com
         sub_title: Lead Developer
         caption: June 2022 - Present
-        description: | # this will include new lines to allow paragraphs
+        description: |
             Python developer. Mostly working with Web3 technologies as well as taking care of infrastructure. 
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Oxylabs
         link: https://oxylabs.io/
-        # link_text: boringcompany.com
         sub_title: Python Developer
         caption: June 2020 - June 2022
-        description: | # this will include new lines to allow paragraphs
+        description: |
             Working in a larger team and using Python to solve various issues.
+  
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Dokunetas
+        link: http://www.dokunetas.net
+        sub_title: Junior Developer
+        caption: May 2016 - Jul 2018
+        description: |
+            First job as a developer. Worked with PhP. Developed small web crawlers as well as small web applications.
+  
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Software Development Academy
+        caption: 2019 - 2020
+        sub_title: Java Developer Bootstrap Courses
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: LCC International University
@@ -92,7 +109,7 @@ content:
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Sports (weight lifting)
       - Gaming
